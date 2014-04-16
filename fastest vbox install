@@ -1,0 +1,21 @@
+##     __     ______   _____  __
+##     \ \   / / __ ) / _ \ \/ /
+##      \ \ / /|  _ \| | | \  / 
+##       \ V / | |_) | |_| /  \ 
+##fknfstaz\_/  |____/ \___/_/\_\installer
+##
+##Put this in your terminal and smoke it.
+
+sudo apt-get install axel && sudo apt-get purge virtualbox dkms linux-headers-$(uname -r) && sudo apt-get install linux-headers-$(uname -r) && axel -n 100 http://download.virtualbox.org/virtualbox/4.3.10/virtualbox-4.3_4.3.10-93012~Debian~wheezy_i386.deb && sudo apt-get -f install && sudo dpkg -i virtualbox-4.3_4.3.10-93012~Debian~wheezy_i386.deb && sudo apt-get update && virtualbox
+
+
+
+
+
+##NOTE:
+##If axel craps out on you at any point just restart from:
+
+axel -n 100 http://download.virtualbox.org/virtualbox/4.3.10/virtualbox-4.3_4.3.10-93012~Debian~wheezy_i386.deb && sudo apt-get -f install && sudo dpkg -i virtualbox-4.3_4.3.10-93012~Debian~wheezy_i386.deb && sudo apt-get update && virtualbox
+
+##axel will pick up where it left off.
+##If virtualbox has been updated, it'll let you know when you run it. Just replace the update link and package location with the ones above.
