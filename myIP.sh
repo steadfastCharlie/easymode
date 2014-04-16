@@ -33,3 +33,5 @@ read -p "Press any key to continue . . . " -n1 -s
 clear
 
 exit 0
+
+##DON'T FORGET TO CHMOD
