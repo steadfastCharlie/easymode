@@ -2,7 +2,7 @@
 ####
 #Change Tor Identity .sh for Openbox
 #Author: https://github.com/steadfastCharlie
-#Share: 
+#Share: https://github.com/steadfastCharlie/easymode/blob/master/myIP.sh
 ####
 
 #Copy this shell script to /wherever_u_want/
